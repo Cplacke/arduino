@@ -43,6 +43,6 @@ void loop() { // Turn the LED on (HIGH is the voltage level)
 
   DELAY = DELAY - 50;
   if ( DELAY < 0 ) {
-    DELAY = 0;
+    DELAY = 1000;
   }
 }
